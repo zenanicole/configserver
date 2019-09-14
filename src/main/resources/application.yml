@@ -1,0 +1,15 @@
+spring:
+ cloud:
+   config:
+     server:
+       git:
+         uri: https://github.com/zenanicole/config-server-repository
+
+ application:
+   name: CONFIG-SERVER
+
+ Profiles:
+  active: dev
+
+server:
+  port: 8888
